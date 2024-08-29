@@ -1,0 +1,19 @@
+const data = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [10, 11, 12]
+  ];
+  //qn1
+const totalSum = data.flat().reduce((sum, num) => sum + num, 0);
+console.log("Sum of all numbers:", totalSum);
+  //qn2
+const largestNumber = Math.max(...data.flat());
+const smallestNumber = Math.min(...data.flat());
+console.log("Largest number:", largestNumber);
+console.log("Smallest number:", smallestNumber);
+//qn3
+const flattenedArray = data.flat();
+const sum = flattenedArray.reduce((sum, num) => sum + num, 0);
+const average = sum / flattenedArray.length;
+console.log("Average of all numbers:", average);

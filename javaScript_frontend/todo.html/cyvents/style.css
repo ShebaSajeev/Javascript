@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin: 10px 0;
+}
+
+.row img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 1px solid #000;
+}
+
+.mirror {
+    transform: scaleX(-1);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
